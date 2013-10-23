@@ -1,1 +1,91 @@
 @import 'bootstrap';
+
+body {
+	margin: 0;
+}
+
+.row {
+	height: 550px;
+}
+
+.row2 {
+	height: 350px;
+}
+
+div {
+	margin: 0;
+}
+
+#div0 {
+	height: 550px;
+	background-image: url(http://img.photobucket.com/albums/v470/bananaphone5000/Gorillllas4/AtlanticCityBoardwalk_6-62.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#div1 {
+	height: 350px;
+	background-image: url(http://img151.imageshack.us/img151/9348/l615atraffic1960slifema.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#div2 {
+	height: 350px;
+	background-image: url(http://24.media.tumblr.com/tumblr_m5vozbN3it1qcdzk5o1_r1_1280.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#div3 {
+	height: 350px;
+	background-image: url(http://4.bp.blogspot.com/-H1RW3WNF_ps/TXKXgU5WtNI/AAAAAAAAFDA/MJVdSZNWk7w/s1600/72cbdedd08d89dd6_large.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.div0brand {
+/*	position: relative;*/
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: 180px;
+	text-align: center;
+	padding-top: 100px;
+
+	h1 {
+		font-size: 150px;
+		
+	}
+
+	h2 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 100px;
+		text-align: center;
+	}
+}
+
+#warm {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(150, 100, 30, .4);
+}
+
+.navbar {
+	margin: 0;
+}
+
+#darker {
+	height: 550px;
+	width: 100%;
+	background-color: rgba(50, 50, 50, .5);
+}
