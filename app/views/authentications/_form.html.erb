@@ -1,0 +1,13 @@
+<%= form_for User.new, {url:"/authentications", method:"post"} do |u|%>
+<p>
+  <%= u.label :email, "Email"%>
+  <%= u.text_field :email %>
+  <%= u.label :password, "Password"%>
+  <%= u.text_field :password %>
+</p>
+
+<p>
+<%= u.submit %>
+</p>
+
+<%end%>

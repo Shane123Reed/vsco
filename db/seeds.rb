@@ -12,3 +12,10 @@ Image.create([
   {url: 'Image One'},
   {url: 'Image Two'}
 ])
+
+User.destroy_all
+
+User.create([
+  {email: 'shane@shane.com'},
+  {email: 'eliot@eliot.com'}
+])

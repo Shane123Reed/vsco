@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem 'mongoid', github: 'mongoid/mongoid'
@@ -32,7 +34,12 @@ group :doc do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', github: 'codahale/bcrypt-ruby'
+
+group :production do
+	gem 'rails_12factor'
+	gem 'thin'
+end
 
 # Use unicorn as the app server
 # gem 'unicorn'
